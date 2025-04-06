@@ -1,4 +1,4 @@
-# Grammar Scoring App - SHL Assessment 2nd Project (Repo: shl_assessment_2ndbproject)
+# Grammar Scoring App - SHL Assessment 2nd Project
 
 This project, **shl_assessment_2ndbproject**, is part of the **SHL Intern Hiring Assessment**, where multiple projects were offered as options. I chose the second project, focused on scoring grammar in audio files based on grammar quality using machine learning.
 
