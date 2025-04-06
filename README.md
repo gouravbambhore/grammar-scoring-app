@@ -1,6 +1,8 @@
-# Grammar Scoring App
+# Grammar Scoring App - SHL Assessment 2nd Project (Repo: shl_assessment_2ndbproject)
 
-A **Grammar Scoring App** that evaluates grammar in audio files and provides a score based on the grammar quality. This project is designed to automate the evaluation of grammatical accuracy and fluency using machine learning.
+This project, **shl_assessment_2ndbproject**, is part of the **SHL Intern Hiring Assessment**, where multiple projects were offered as options. I chose the second project, focused on scoring grammar in audio files based on grammar quality using machine learning.
+
+---
 
 ## 🚀 Features
 
@@ -15,5 +17,5 @@ A **Grammar Scoring App** that evaluates grammar in audio files and provides a s
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/grammar-scoring-app.git
-cd grammar-scoring-app
+git clone https://github.com/<your-username>/shl_assessment_2ndbproject.git
+cd shl_assessment_2ndbproject
