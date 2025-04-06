@@ -1,0 +1,105 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #74b9ff, #0984e3);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Header Section */
+header {
+    background: rgba(0, 0, 0, 0.2);
+    padding: 20px 0;
+    border-radius: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Instructions Box */
+.instructions-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.instructions-box h2 {
+    color: #74b9ff;
+    font-size: 1.5rem;
+}
+
+.instructions-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.instructions-box li {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+/* Card Styling */
+.card {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Button Styling */
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.primary-btn {
+    background: #0984e3;
+    color: white;
+}
+
+.primary-btn:hover {
+    background: #74b9ff;
+    transform: scale(1.05);
+}
+
+.secondary-btn {
+    background: #636e72;
+    color: white;
+}
+
+.secondary-btn:hover {
+    background: #2d3436;
+    transform: scale(1.05);
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+/* Result Section */
+.result-section {
+    font-size: 1.5rem;
+}

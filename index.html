@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grammar Scoring Engine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Grammar Scoring Engine</h1>
+            <p>Analyze your speech grammar in real-time or upload audio files for AI-powered scoring.</p>
+        </header>
+
+        <div class="instructions-box">
+            <h2>Instructions</h2>
+            <ul>
+                <li><strong>Option 1:</strong> Record a clear audio of your speech (5-30 seconds).</li>
+                <li><strong>Option 2:</strong> Upload an audio file (.wav format) for analysis.</li>
+                <li>Speak naturally and clearly for the best results.</li>
+            </ul>
+        </div>
+
+        <div class="action-section">
+            <!-- Recording Section -->
+            <div class="record-section card">
+                <h3>🎤 Record Audio</h3>
+                <button id="recordBtn" class="primary-btn">Start Recording</button>
+                <button id="stopBtn" class="secondary-btn" disabled>Stop Recording</button>
+                <audio id="recordedAudio" controls></audio>
+                <button id="analyzeGrammarBtn" class="primary-btn" disabled>Generate Score</button> <!-- New button -->
+            </div>
+
+            <!-- Upload Section -->
+            <div class="upload-section card">
+                <h3>📤 Upload Audio</h3>
+                <form id="uploadForm">
+                    <label for="audioFile">Upload a .wav File</label>
+                    <input type="file" id="audioFile" name="audio" accept=".wav" required>
+                    <button type="submit" class="primary-btn">Analyze Grammar</button>
+                </form>
+            </div>
+        </div>
+
+        <div id="result" class="result-section card"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
